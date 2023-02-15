@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<div id="preloader">
+  <div class="loader"></div>
+</div>
+<div class="login-area login-bg">
+  <div class="container">
+    <div class="login-box ptb--100">
+      <div class="login-form-body">
+        <div class="submit-btn-area">
+          <button type="button">
+            <a href="/encrypt">Encrypt</a>
+          </button>
+        </div>
+      </div>
+      <div class="login-form-body">
+        <div class="submit-btn-area">
+          <button type="button">
+            <a href="/decrypt">Decrypt</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
